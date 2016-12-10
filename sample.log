@@ -1,0 +1,1042 @@
+Usage: java org.glencross.sudoku.SudokuSolverApp [<board file>]
+Using default filename 'board.txt'.
+Loading board.txt
+Starting Position:
+123|  3|   #123|123|123#123|123|123
+456|   |   #456|456|456#456|456|456
+789|   | 8 #789|789|789#789|789|789
+-----------------------------------
+123|123|123#   |123|   #123|123|123
+456|456|456# 5 |456|   #456|456|456
+789|789|789#   |789| 8 #789|789|789
+-----------------------------------
+123|123|   #123|123|123#123|   |123
+456|456|   #456|456|456#456|  6|456
+789|789|7  #789|789|789#789|   |789
+###################################
+123|123|123#123|   |123#123|   |
+456|456|456#456|   |456#456|4  |  6
+789|789|789#789|7  |789#789|   |
+-----------------------------------
+123|123|   #123|123|123#123|123|123
+456|456|   #456|456|456#456|456|456
+789|789|  9#789|789|789#789|789|789
+-----------------------------------
+ 2 |123|123#123|   |123#123|   |1
+   |456|456#456|4  |456#456|   |
+   |789|789#789|   |789#789|7  |
+###################################
+   |   |123#123|123|123#123|123|123
+4  |   |456#456|456|456#456|456|456
+   |7  |789#789|789|789#789|789|789
+-----------------------------------
+123|123|123#   |123|   #   |123|123
+456|456|456#   |456|   #   |456|456
+789|789|789#7  |789|  9# 8 |789|789
+-----------------------------------
+123|123|123#123|123| 2 #   |123|123
+456|456|456#456|456|   # 5 |456|456
+789|789|789#789|789|   #   |789|789
+###################################
+
+Solving...
+Iteration 1...
+Cell 0,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 3,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 4,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 5,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 6,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 7,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 8,0 is not 3 (because of cell 1,0 with value 3 in set Row 0)
+Cell 0,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 3,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 4,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 5,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 6,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 7,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 8,0 is not 8 (because of cell 2,0 with value 8 in set Row 0)
+Cell 0,0 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,1 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,2 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,3 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,4 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,7 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,8 is not 2 (because of cell 0,5 with value 2 in set Column 0)
+Cell 0,0 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,1 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,2 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,3 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,4 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,7 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,8 is not 4 (because of cell 0,6 with value 4 in set Column 0)
+Cell 0,1 is not 3 (because of cell 1,0 with value 3 in set Square 0)
+Cell 1,1 is not 3 (because of cell 1,0 with value 3 in set Square 0)
+Cell 2,1 is not 3 (because of cell 1,0 with value 3 in set Square 0)
+Cell 0,2 is not 3 (because of cell 1,0 with value 3 in set Square 0)
+Cell 1,2 is not 3 (because of cell 1,0 with value 3 in set Square 0)
+Cell 0,1 is not 8 (because of cell 2,0 with value 8 in set Square 0)
+Cell 1,1 is not 8 (because of cell 2,0 with value 8 in set Square 0)
+Cell 2,1 is not 8 (because of cell 2,0 with value 8 in set Square 0)
+Cell 0,2 is not 8 (because of cell 2,0 with value 8 in set Square 0)
+Cell 1,2 is not 8 (because of cell 2,0 with value 8 in set Square 0)
+Cell 0,0 is not 7 (because of cell 2,2 with value 7 in set Square 0)
+Cell 0,1 is not 7 (because of cell 2,2 with value 7 in set Square 0)
+Cell 1,1 is not 7 (because of cell 2,2 with value 7 in set Square 0)
+Cell 2,1 is not 7 (because of cell 2,2 with value 7 in set Square 0)
+Cell 0,2 is not 7 (because of cell 2,2 with value 7 in set Square 0)
+Cell 1,2 is not 7 (because of cell 2,2 with value 7 in set Square 0)
+Cell 0,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 1,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 2,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 4,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 6,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 7,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 8,1 is not 5 (because of cell 3,1 with value 5 in set Row 1)
+Cell 4,1 is not 8 (because of cell 5,1 with value 8 in set Row 1)
+Cell 6,1 is not 8 (because of cell 5,1 with value 8 in set Row 1)
+Cell 7,1 is not 8 (because of cell 5,1 with value 8 in set Row 1)
+Cell 8,1 is not 8 (because of cell 5,1 with value 8 in set Row 1)
+Cell 1,3 is not 3 (because of cell 1,0 with value 3 in set Column 1)
+Cell 1,4 is not 3 (because of cell 1,0 with value 3 in set Column 1)
+Cell 1,5 is not 3 (because of cell 1,0 with value 3 in set Column 1)
+Cell 1,7 is not 3 (because of cell 1,0 with value 3 in set Column 1)
+Cell 1,8 is not 3 (because of cell 1,0 with value 3 in set Column 1)
+Cell 1,3 is not 7 (because of cell 1,6 with value 7 in set Column 1)
+Cell 1,4 is not 7 (because of cell 1,6 with value 7 in set Column 1)
+Cell 1,5 is not 7 (because of cell 1,6 with value 7 in set Column 1)
+Cell 1,7 is not 7 (because of cell 1,6 with value 7 in set Column 1)
+Cell 1,8 is not 7 (because of cell 1,6 with value 7 in set Column 1)
+Cell 3,0 is not 5 (because of cell 3,1 with value 5 in set Square 1)
+Cell 4,0 is not 5 (because of cell 3,1 with value 5 in set Square 1)
+Cell 5,0 is not 5 (because of cell 3,1 with value 5 in set Square 1)
+Cell 3,2 is not 5 (because of cell 3,1 with value 5 in set Square 1)
+Cell 4,2 is not 5 (because of cell 3,1 with value 5 in set Square 1)
+Cell 5,2 is not 5 (because of cell 3,1 with value 5 in set Square 1)
+Cell 3,2 is not 8 (because of cell 5,1 with value 8 in set Square 1)
+Cell 4,2 is not 8 (because of cell 5,1 with value 8 in set Square 1)
+Cell 5,2 is not 8 (because of cell 5,1 with value 8 in set Square 1)
+Cell 3,2 is not 7 (because of cell 2,2 with value 7 in set Row 2)
+Cell 4,2 is not 7 (because of cell 2,2 with value 7 in set Row 2)
+Cell 5,2 is not 7 (because of cell 2,2 with value 7 in set Row 2)
+Cell 6,2 is not 7 (because of cell 2,2 with value 7 in set Row 2)
+Cell 8,2 is not 7 (because of cell 2,2 with value 7 in set Row 2)
+Cell 0,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 1,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 3,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 4,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 5,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 6,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 8,2 is not 6 (because of cell 7,2 with value 6 in set Row 2)
+Cell 2,3 is not 8 (because of cell 2,0 with value 8 in set Column 2)
+Cell 2,5 is not 8 (because of cell 2,0 with value 8 in set Column 2)
+Cell 2,6 is not 8 (because of cell 2,0 with value 8 in set Column 2)
+Cell 2,7 is not 8 (because of cell 2,0 with value 8 in set Column 2)
+Cell 2,8 is not 8 (because of cell 2,0 with value 8 in set Column 2)
+Cell 2,3 is not 7 (because of cell 2,2 with value 7 in set Column 2)
+Cell 2,5 is not 7 (because of cell 2,2 with value 7 in set Column 2)
+Cell 2,6 is not 7 (because of cell 2,2 with value 7 in set Column 2)
+Cell 2,7 is not 7 (because of cell 2,2 with value 7 in set Column 2)
+Cell 2,8 is not 7 (because of cell 2,2 with value 7 in set Column 2)
+Cell 2,1 is not 9 (because of cell 2,4 with value 9 in set Column 2)
+Cell 2,3 is not 9 (because of cell 2,4 with value 9 in set Column 2)
+Cell 2,5 is not 9 (because of cell 2,4 with value 9 in set Column 2)
+Cell 2,6 is not 9 (because of cell 2,4 with value 9 in set Column 2)
+Cell 2,7 is not 9 (because of cell 2,4 with value 9 in set Column 2)
+Cell 2,8 is not 9 (because of cell 2,4 with value 9 in set Column 2)
+Cell 6,0 is not 6 (because of cell 7,2 with value 6 in set Square 2)
+Cell 7,0 is not 6 (because of cell 7,2 with value 6 in set Square 2)
+Cell 8,0 is not 6 (because of cell 7,2 with value 6 in set Square 2)
+Cell 6,1 is not 6 (because of cell 7,2 with value 6 in set Square 2)
+Cell 7,1 is not 6 (because of cell 7,2 with value 6 in set Square 2)
+Cell 8,1 is not 6 (because of cell 7,2 with value 6 in set Square 2)
+Cell 0,3 is not 7 (because of cell 4,3 with value 7 in set Row 3)
+Cell 3,3 is not 7 (because of cell 4,3 with value 7 in set Row 3)
+Cell 5,3 is not 7 (because of cell 4,3 with value 7 in set Row 3)
+Cell 6,3 is not 7 (because of cell 4,3 with value 7 in set Row 3)
+Cell 1,3 is not 4 (because of cell 7,3 with value 4 in set Row 3)
+Cell 2,3 is not 4 (because of cell 7,3 with value 4 in set Row 3)
+Cell 3,3 is not 4 (because of cell 7,3 with value 4 in set Row 3)
+Cell 5,3 is not 4 (because of cell 7,3 with value 4 in set Row 3)
+Cell 6,3 is not 4 (because of cell 7,3 with value 4 in set Row 3)
+Cell 0,3 is not 6 (because of cell 8,3 with value 6 in set Row 3)
+Cell 1,3 is not 6 (because of cell 8,3 with value 6 in set Row 3)
+Cell 2,3 is not 6 (because of cell 8,3 with value 6 in set Row 3)
+Cell 3,3 is not 6 (because of cell 8,3 with value 6 in set Row 3)
+Cell 5,3 is not 6 (because of cell 8,3 with value 6 in set Row 3)
+Cell 6,3 is not 6 (because of cell 8,3 with value 6 in set Row 3)
+Cell 3,3 is not 5 (because of cell 3,1 with value 5 in set Column 3)
+Cell 3,4 is not 5 (because of cell 3,1 with value 5 in set Column 3)
+Cell 3,5 is not 5 (because of cell 3,1 with value 5 in set Column 3)
+Cell 3,6 is not 5 (because of cell 3,1 with value 5 in set Column 3)
+Cell 3,8 is not 5 (because of cell 3,1 with value 5 in set Column 3)
+Cell 3,0 is not 7 (because of cell 3,7 with value 7 in set Column 3)
+Cell 3,4 is not 7 (because of cell 3,7 with value 7 in set Column 3)
+Cell 3,5 is not 7 (because of cell 3,7 with value 7 in set Column 3)
+Cell 3,6 is not 7 (because of cell 3,7 with value 7 in set Column 3)
+Cell 3,8 is not 7 (because of cell 3,7 with value 7 in set Column 3)
+Cell 0,3 is not 9 (because of cell 2,4 with value 9 in set Square 3)
+Cell 1,3 is not 9 (because of cell 2,4 with value 9 in set Square 3)
+Cell 0,4 is not 9 (because of cell 2,4 with value 9 in set Square 3)
+Cell 1,4 is not 9 (because of cell 2,4 with value 9 in set Square 3)
+Cell 1,5 is not 9 (because of cell 2,4 with value 9 in set Square 3)
+Cell 1,3 is not 2 (because of cell 0,5 with value 2 in set Square 3)
+Cell 2,3 is not 2 (because of cell 0,5 with value 2 in set Square 3)
+Cell 1,4 is not 2 (because of cell 0,5 with value 2 in set Square 3)
+Cell 1,5 is not 2 (because of cell 0,5 with value 2 in set Square 3)
+Cell 2,5 is not 2 (because of cell 0,5 with value 2 in set Square 3)
+Cell 0,4 has value 7 because no other item in set Square 3 can possibly have this value
+Cell 4,4 is not 7 (because of cell 0,4 with value 7 in set Row 4)
+Cell 5,4 is not 7 (because of cell 0,4 with value 7 in set Row 4)
+Cell 6,4 is not 7 (because of cell 0,4 with value 7 in set Row 4)
+Cell 7,4 is not 7 (because of cell 0,4 with value 7 in set Row 4)
+Cell 8,4 is not 7 (because of cell 0,4 with value 7 in set Row 4)
+Cell 3,4 is not 9 (because of cell 2,4 with value 9 in set Row 4)
+Cell 4,4 is not 9 (because of cell 2,4 with value 9 in set Row 4)
+Cell 5,4 is not 9 (because of cell 2,4 with value 9 in set Row 4)
+Cell 6,4 is not 9 (because of cell 2,4 with value 9 in set Row 4)
+Cell 7,4 is not 9 (because of cell 2,4 with value 9 in set Row 4)
+Cell 8,4 is not 9 (because of cell 2,4 with value 9 in set Row 4)
+Cell 4,0 is not 7 (because of cell 4,3 with value 7 in set Column 4)
+Cell 4,1 is not 7 (because of cell 4,3 with value 7 in set Column 4)
+Cell 4,6 is not 7 (because of cell 4,3 with value 7 in set Column 4)
+Cell 4,7 is not 7 (because of cell 4,3 with value 7 in set Column 4)
+Cell 4,8 is not 7 (because of cell 4,3 with value 7 in set Column 4)
+Cell 4,0 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 4,1 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 4,2 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 4,4 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 4,6 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 4,7 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 4,8 is not 4 (because of cell 4,5 with value 4 in set Column 4)
+Cell 5,5 is not 7 (because of cell 4,3 with value 7 in set Square 4)
+Cell 3,4 is not 4 (because of cell 4,5 with value 4 in set Square 4)
+Cell 5,4 is not 4 (because of cell 4,5 with value 4 in set Square 4)
+Cell 3,5 is not 4 (because of cell 4,5 with value 4 in set Square 4)
+Cell 5,5 is not 4 (because of cell 4,5 with value 4 in set Square 4)
+Cell 3,5 is not 2 (because of cell 0,5 with value 2 in set Row 5)
+Cell 5,5 is not 2 (because of cell 0,5 with value 2 in set Row 5)
+Cell 6,5 is not 2 (because of cell 0,5 with value 2 in set Row 5)
+Cell 1,5 is not 4 (because of cell 4,5 with value 4 in set Row 5)
+Cell 2,5 is not 4 (because of cell 4,5 with value 4 in set Row 5)
+Cell 6,5 is not 4 (because of cell 4,5 with value 4 in set Row 5)
+Cell 6,5 is not 7 (because of cell 7,5 with value 7 in set Row 5)
+Cell 1,5 is not 1 (because of cell 8,5 with value 1 in set Row 5)
+Cell 2,5 is not 1 (because of cell 8,5 with value 1 in set Row 5)
+Cell 3,5 is not 1 (because of cell 8,5 with value 1 in set Row 5)
+Cell 5,5 is not 1 (because of cell 8,5 with value 1 in set Row 5)
+Cell 6,5 is not 1 (because of cell 8,5 with value 1 in set Row 5)
+Cell 5,3 is not 8 (because of cell 5,1 with value 8 in set Column 5)
+Cell 5,4 is not 8 (because of cell 5,1 with value 8 in set Column 5)
+Cell 5,5 is not 8 (because of cell 5,1 with value 8 in set Column 5)
+Cell 5,6 is not 8 (because of cell 5,1 with value 8 in set Column 5)
+Cell 5,0 is not 9 (because of cell 5,7 with value 9 in set Column 5)
+Cell 5,2 is not 9 (because of cell 5,7 with value 9 in set Column 5)
+Cell 5,3 is not 9 (because of cell 5,7 with value 9 in set Column 5)
+Cell 5,5 is not 9 (because of cell 5,7 with value 9 in set Column 5)
+Cell 5,6 is not 9 (because of cell 5,7 with value 9 in set Column 5)
+Cell 5,0 is not 2 (because of cell 5,8 with value 2 in set Column 5)
+Cell 5,2 is not 2 (because of cell 5,8 with value 2 in set Column 5)
+Cell 5,3 is not 2 (because of cell 5,8 with value 2 in set Column 5)
+Cell 5,4 is not 2 (because of cell 5,8 with value 2 in set Column 5)
+Cell 5,6 is not 2 (because of cell 5,8 with value 2 in set Column 5)
+Cell 6,4 is not 4 (because of cell 7,3 with value 4 in set Square 5)
+Cell 7,4 is not 4 (because of cell 7,3 with value 4 in set Square 5)
+Cell 8,4 is not 4 (because of cell 7,3 with value 4 in set Square 5)
+Cell 6,4 is not 6 (because of cell 8,3 with value 6 in set Square 5)
+Cell 7,4 is not 6 (because of cell 8,3 with value 6 in set Square 5)
+Cell 8,4 is not 6 (because of cell 8,3 with value 6 in set Square 5)
+Cell 6,5 is not 6 (because of cell 8,3 with value 6 in set Square 5)
+Cell 6,3 is not 1 (because of cell 8,5 with value 1 in set Square 5)
+Cell 6,4 is not 1 (because of cell 8,5 with value 1 in set Square 5)
+Cell 7,4 is not 1 (because of cell 8,5 with value 1 in set Square 5)
+Cell 8,4 is not 1 (because of cell 8,5 with value 1 in set Square 5)
+Cell 2,6 is not 4 (because of cell 0,6 with value 4 in set Row 6)
+Cell 3,6 is not 4 (because of cell 0,6 with value 4 in set Row 6)
+Cell 5,6 is not 4 (because of cell 0,6 with value 4 in set Row 6)
+Cell 6,6 is not 4 (because of cell 0,6 with value 4 in set Row 6)
+Cell 7,6 is not 4 (because of cell 0,6 with value 4 in set Row 6)
+Cell 8,6 is not 4 (because of cell 0,6 with value 4 in set Row 6)
+Cell 5,6 is not 7 (because of cell 1,6 with value 7 in set Row 6)
+Cell 6,6 is not 7 (because of cell 1,6 with value 7 in set Row 6)
+Cell 7,6 is not 7 (because of cell 1,6 with value 7 in set Row 6)
+Cell 8,6 is not 7 (because of cell 1,6 with value 7 in set Row 6)
+Cell 6,2 is not 8 (because of cell 6,7 with value 8 in set Column 6)
+Cell 6,3 is not 8 (because of cell 6,7 with value 8 in set Column 6)
+Cell 6,4 is not 8 (because of cell 6,7 with value 8 in set Column 6)
+Cell 6,5 is not 8 (because of cell 6,7 with value 8 in set Column 6)
+Cell 6,6 is not 8 (because of cell 6,7 with value 8 in set Column 6)
+Cell 6,0 is not 5 (because of cell 6,8 with value 5 in set Column 6)
+Cell 6,2 is not 5 (because of cell 6,8 with value 5 in set Column 6)
+Cell 6,3 is not 5 (because of cell 6,8 with value 5 in set Column 6)
+Cell 6,4 is not 5 (because of cell 6,8 with value 5 in set Column 6)
+Cell 6,5 is not 5 (because of cell 6,8 with value 5 in set Column 6)
+Cell 6,6 is not 5 (because of cell 6,8 with value 5 in set Column 6)
+Cell 1,7 is not 4 (because of cell 0,6 with value 4 in set Square 6)
+Cell 2,7 is not 4 (because of cell 0,6 with value 4 in set Square 6)
+Cell 1,8 is not 4 (because of cell 0,6 with value 4 in set Square 6)
+Cell 2,8 is not 4 (because of cell 0,6 with value 4 in set Square 6)
+Cell 0,7 is not 7 (because of cell 1,6 with value 7 in set Square 6)
+Cell 0,8 is not 7 (because of cell 1,6 with value 7 in set Square 6)
+Cell 6,6 has value 6 because no other item in set Column 6 can possibly have this value
+Cell 7,7 is not 7 (because of cell 3,7 with value 7 in set Row 7)
+Cell 8,7 is not 7 (because of cell 3,7 with value 7 in set Row 7)
+Cell 0,7 is not 9 (because of cell 5,7 with value 9 in set Row 7)
+Cell 1,7 is not 9 (because of cell 5,7 with value 9 in set Row 7)
+Cell 4,7 is not 9 (because of cell 5,7 with value 9 in set Row 7)
+Cell 7,7 is not 9 (because of cell 5,7 with value 9 in set Row 7)
+Cell 8,7 is not 9 (because of cell 5,7 with value 9 in set Row 7)
+Cell 0,7 is not 8 (because of cell 6,7 with value 8 in set Row 7)
+Cell 1,7 is not 8 (because of cell 6,7 with value 8 in set Row 7)
+Cell 4,7 is not 8 (because of cell 6,7 with value 8 in set Row 7)
+Cell 7,7 is not 8 (because of cell 6,7 with value 8 in set Row 7)
+Cell 8,7 is not 8 (because of cell 6,7 with value 8 in set Row 7)
+Cell 7,6 is not 6 (because of cell 7,2 with value 6 in set Column 7)
+Cell 7,7 is not 6 (because of cell 7,2 with value 6 in set Column 7)
+Cell 7,8 is not 6 (because of cell 7,2 with value 6 in set Column 7)
+Cell 7,0 is not 4 (because of cell 7,3 with value 4 in set Column 7)
+Cell 7,1 is not 4 (because of cell 7,3 with value 4 in set Column 7)
+Cell 7,7 is not 4 (because of cell 7,3 with value 4 in set Column 7)
+Cell 7,8 is not 4 (because of cell 7,3 with value 4 in set Column 7)
+Cell 7,0 is not 7 (because of cell 7,5 with value 7 in set Column 7)
+Cell 7,1 is not 7 (because of cell 7,5 with value 7 in set Column 7)
+Cell 7,8 is not 7 (because of cell 7,5 with value 7 in set Column 7)
+Cell 3,6 is not 9 (because of cell 5,7 with value 9 in set Square 7)
+Cell 4,6 is not 9 (because of cell 5,7 with value 9 in set Square 7)
+Cell 3,8 is not 9 (because of cell 5,7 with value 9 in set Square 7)
+Cell 4,8 is not 9 (because of cell 5,7 with value 9 in set Square 7)
+Cell 3,6 is not 2 (because of cell 5,8 with value 2 in set Square 7)
+Cell 4,6 is not 2 (because of cell 5,8 with value 2 in set Square 7)
+Cell 4,7 is not 2 (because of cell 5,8 with value 2 in set Square 7)
+Cell 3,8 is not 2 (because of cell 5,8 with value 2 in set Square 7)
+Cell 4,8 is not 2 (because of cell 5,8 with value 2 in set Square 7)
+Cell 8,7 has value 4 because no other item in set Row 7 can possibly have this value
+Cell 3,8 has value 4 because no other item in set Square 7 can possibly have this value
+Cell 8,8 is not 4 (because of cell 3,8 with value 4 in set Row 8)
+Cell 1,8 is not 2 (because of cell 5,8 with value 2 in set Row 8)
+Cell 2,8 is not 2 (because of cell 5,8 with value 2 in set Row 8)
+Cell 7,8 is not 2 (because of cell 5,8 with value 2 in set Row 8)
+Cell 8,8 is not 2 (because of cell 5,8 with value 2 in set Row 8)
+Cell 0,8 is not 5 (because of cell 6,8 with value 5 in set Row 8)
+Cell 1,8 is not 5 (because of cell 6,8 with value 5 in set Row 8)
+Cell 2,8 is not 5 (because of cell 6,8 with value 5 in set Row 8)
+Cell 4,8 is not 5 (because of cell 6,8 with value 5 in set Row 8)
+Cell 7,8 is not 5 (because of cell 6,8 with value 5 in set Row 8)
+Cell 8,8 is not 5 (because of cell 6,8 with value 5 in set Row 8)
+Cell 8,6 is not 6 (because of cell 8,3 with value 6 in set Column 8)
+Cell 8,8 is not 6 (because of cell 8,3 with value 6 in set Column 8)
+Cell 8,0 is not 1 (because of cell 8,5 with value 1 in set Column 8)
+Cell 8,1 is not 1 (because of cell 8,5 with value 1 in set Column 8)
+Cell 8,2 is not 1 (because of cell 8,5 with value 1 in set Column 8)
+Cell 8,6 is not 1 (because of cell 8,5 with value 1 in set Column 8)
+Cell 8,8 is not 1 (because of cell 8,5 with value 1 in set Column 8)
+Cell 8,0 is not 4 (because of cell 8,7 with value 4 in set Column 8)
+Cell 8,1 is not 4 (because of cell 8,7 with value 4 in set Column 8)
+Cell 8,2 is not 4 (because of cell 8,7 with value 4 in set Column 8)
+Cell 7,6 is not 8 (because of cell 6,7 with value 8 in set Square 8)
+Cell 8,6 is not 8 (because of cell 6,7 with value 8 in set Square 8)
+Cell 7,8 is not 8 (because of cell 6,7 with value 8 in set Square 8)
+Cell 8,8 is not 8 (because of cell 6,7 with value 8 in set Square 8)
+Cell 7,6 is not 5 (because of cell 6,8 with value 5 in set Square 8)
+Cell 8,6 is not 5 (because of cell 6,8 with value 5 in set Square 8)
+Cell 7,7 is not 5 (because of cell 6,8 with value 5 in set Square 8)
+Cell 8,8 has value 7 because no other item in set Row 8 can possibly have this value
+Iteration 1 complete
+1  |  3|   #12 |12 |1  #12 |12 | 2
+ 56|   |   #4 6|  6|4 6#4  | 5 | 5
+  9|   | 8 #  9|  9|7  #7 9|  9|7 9
+-----------------------------------
+1  |12 |12 #   |123|   #123|123| 23
+  6|4 6|4 6# 5 |  6|   #4  |   |
+  9|  9|   #   |  9| 8 #7 9|  9|7 9
+-----------------------------------
+1  |12 |   #123|123|1 3#123|   | 23
+ 5 |45 |   #4  |   |4  #4  |  6| 5
+  9|  9|7  #  9|  9|   #  9|   | 89
+###################################
+1 3|1  |1 3#123|   |1 3# 23|   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   # 89|7  |   #  9|   |
+-----------------------------------
+   |1  |   #123|123|1 3# 23| 23| 23
+   |456|   #  6| 56| 56#   | 5 | 5
+7  | 8 |  9# 8 | 8 |   #   | 8 | 8
+-----------------------------------
+ 2 |   |  3#  3|   |  3#  3|   |1
+   | 56| 56#  6|4  | 56#   |   |
+   | 8 |   # 89|   |   #  9|7  |
+###################################
+   |   |123#1 3|1 3|1 3#   |123| 23
+4  |   | 56#  6| 56| 56#  6|   |
+   |7  |   # 8 | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |1 3|   #   |123|
+ 56| 56| 56#   | 56|   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+1 3|1  |1 3#   |1 3| 2 #   |1 3|
+  6|  6|  6#4  |  6|   # 5 |   |
+ 89| 89|   #   | 8 |   #   |  9|7
+###################################
+Iteration 2...
+Cell 5,0 has value 7 because no other item in set Square 1 can possibly have this value
+Cell 8,2 has value 8 because no other item in set Row 2 can possibly have this value
+Cell 2,1 has value 4 because no other item in set Column 2 can possibly have this value
+Cell 3,0 is not 4 (because of cell 3,8 with value 4 in set Column 3)
+Cell 3,2 is not 4 (because of cell 3,8 with value 4 in set Column 3)
+Cell 1,4 has value 4 because no other item in set Square 3 can possibly have this value
+Cell 5,2 has value 4 because no other item in set Column 5 can possibly have this value
+Cell 2,6 is not 6 (because of cell 6,6 with value 6 in set Row 6)
+Cell 3,6 is not 6 (because of cell 6,6 with value 6 in set Row 6)
+Cell 4,6 is not 6 (because of cell 6,6 with value 6 in set Row 6)
+Cell 5,6 is not 6 (because of cell 6,6 with value 6 in set Row 6)
+Cell 7,4 has value 8 because no other item in set Column 7 can possibly have this value
+Cell 8,4 is not 8 (because of cell 8,2 with value 8 in set Column 8)
+Cell 8,0 is not 7 (because of cell 8,8 with value 7 in set Column 8)
+Cell 8,1 is not 7 (because of cell 8,8 with value 7 in set Column 8)
+Iteration 2 complete
+1  |  3|   #12 |12 |   #12 |12 | 2
+ 56|   |   #  6|  6|   #4  | 5 | 5
+  9|   | 8 #  9|  9|7  #7 9|  9|  9
+-----------------------------------
+1  |12 |   #   |123|   #123|123| 23
+  6|4 6|4  # 5 |  6|   #4  |   |
+  9|  9|   #   |  9| 8 #7 9|  9|  9
+-----------------------------------
+1  |12 |   #123|123|   #123|   |
+ 5 |45 |   #   |   |4  #4  |  6|
+  9|  9|7  #  9|  9|   #  9|   | 8
+###################################
+1 3|1  |1 3#123|   |1 3# 23|   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   # 89|7  |   #  9|   |
+-----------------------------------
+   |   |   #123|123|1 3# 23|   | 23
+   |4  |   #  6| 56| 56#   |   | 5
+7  |   |  9# 8 | 8 |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#  3|   |  3#  3|   |1
+   | 56| 56#  6|4  | 56#   |   |
+   | 8 |   # 89|   |   #  9|7  |
+###################################
+   |   |123#1 3|1 3|1 3#   |123| 23
+4  |   | 5 #   | 5 | 5 #  6|   |
+   |7  |   # 8 | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |1 3|   #   |123|
+ 56| 56| 56#   | 56|   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+1 3|1  |1 3#   |1 3| 2 #   |1 3|
+  6|  6|  6#4  |  6|   # 5 |   |
+ 89| 89|   #   | 8 |   #   |  9|7
+###################################
+Iteration 3...
+Cell 6,0 is not 7 (because of cell 5,0 with value 7 in set Row 0)
+Cell 1,1 is not 4 (because of cell 2,1 with value 4 in set Square 0)
+Cell 1,2 is not 4 (because of cell 2,1 with value 4 in set Square 0)
+Cell 6,0 has value 4 because no other item in set Row 0 can possibly have this value
+Cell 6,1 is not 4 (because of cell 2,1 with value 4 in set Row 1)
+Cell 6,1 has value 7 because no other item in set Row 1 can possibly have this value
+Cell 6,2 is not 4 (because of cell 5,2 with value 4 in set Row 2)
+Cell 3,4 is not 8 (because of cell 7,4 with value 8 in set Row 4)
+Cell 4,4 is not 8 (because of cell 7,4 with value 8 in set Row 4)
+Cell 8,4 has value 5 because no other item in set Square 5 can possibly have this value
+Cell 6,2 has value 1 because no other item in set Column 6 can possibly have this value
+Cell 7,0 has value 5 because no other item in set Column 7 can possibly have this value
+Cell 8,0 is not 5 (because of cell 8,4 with value 5 in set Column 8)
+Iteration 3 complete
+1  |  3|   #12 |12 |   #   |   | 2
+ 56|   |   #  6|  6|   #4  | 5 |
+  9|   | 8 #  9|  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   |123| 23
+  6|  6|4  # 5 |  6|   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+1  |12 |   #123|123|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #  9|  9|   #   |   | 8
+###################################
+1 3|1  |1 3#123|   |1 3# 23|   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   # 89|7  |   #  9|   |
+-----------------------------------
+   |   |   #123|123|1 3# 23|   |
+   |4  |   #  6| 56| 56#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#  3|   |  3#  3|   |1
+   | 56| 56#  6|4  | 56#   |   |
+   | 8 |   # 89|   |   #  9|7  |
+###################################
+   |   |123#1 3|1 3|1 3#   |123| 23
+4  |   | 5 #   | 5 | 5 #  6|   |
+   |7  |   # 8 | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |1 3|   #   |123|
+ 56| 56| 56#   | 56|   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+1 3|1  |1 3#   |1 3| 2 #   |1 3|
+  6|  6|  6#4  |  6|   # 5 |   |
+ 89| 89|   #   | 8 |   #   |  9|7
+###################################
+Iteration 4...
+Cell 0,0 is not 5 (because of cell 7,0 with value 5 in set Row 0)
+Cell 0,2 is not 1 (because of cell 6,2 with value 1 in set Row 2)
+Cell 1,2 is not 1 (because of cell 6,2 with value 1 in set Row 2)
+Cell 3,2 is not 1 (because of cell 6,2 with value 1 in set Row 2)
+Cell 4,2 is not 1 (because of cell 6,2 with value 1 in set Row 2)
+Cell 7,1 is not 1 (because of cell 6,2 with value 1 in set Square 2)
+Cell 4,4 is not 5 (because of cell 8,4 with value 5 in set Row 4)
+Cell 5,4 is not 5 (because of cell 8,4 with value 5 in set Row 4)
+Iteration 4 complete
+1  |  3|   #12 |12 |   #   |   | 2
+  6|   |   #  6|  6|   #4  | 5 |
+  9|   | 8 #  9|  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   | 23| 23
+  6|  6|4  # 5 |  6|   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+   | 2 |   # 23| 23|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #  9|  9|   #   |   | 8
+###################################
+1 3|1  |1 3#123|   |1 3# 23|   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   # 89|7  |   #  9|   |
+-----------------------------------
+   |   |   #123|123|1 3# 23|   |
+   |4  |   #  6|  6|  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#  3|   |  3#  3|   |1
+   | 56| 56#  6|4  | 56#   |   |
+   | 8 |   # 89|   |   #  9|7  |
+###################################
+   |   |123#1 3|1 3|1 3#   |123| 23
+4  |   | 5 #   | 5 | 5 #  6|   |
+   |7  |   # 8 | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |1 3|   #   |123|
+ 56| 56| 56#   | 56|   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+1 3|1  |1 3#   |1 3| 2 #   |1 3|
+  6|  6|  6#4  |  6|   # 5 |   |
+ 89| 89|   #   | 8 |   #   |  9|7
+###################################
+Iteration 5...
+CHECKING FOR COMBI GROUPS
+Found a combi group [Cell 1,4, Cell 2,4, Cell 3,4, Cell 6,4] in Row 3 containing values [1 3 5 8 ]
+Cell 3,3 cannot have value 1
+Cell 3,3 cannot have value 3
+Cell 3,3 cannot have value 8
+Cell 6,3 cannot have value 3
+Found a combi group [Cell 4,4, Cell 7,4] in Row 3 containing values [2 9 ]
+Found a combi group [Cell 4,4, Cell 6,4, Cell 4,5, Cell 5,5, Cell 6,5, Cell 6,6] in Square 4 containing values [1 2 3 5 6 9 ]
+Cell 3,5 cannot have value 3
+Cell 3,5 cannot have value 6
+Cell 3,5 cannot have value 9
+By process of elimination cell 3,5 has value 8
+Found a combi group [Cell 6,4, Cell 4,5, Cell 5,5, Cell 6,5, Cell 4,6, Cell 6,6] in Square 4 containing values [1 2 3 5 6 8 ]
+Cell 3,3 cannot have value 2
+By process of elimination cell 3,3 has value 9
+Found a combi group [Cell 6,4, Cell 4,5, Cell 5,5, Cell 6,5, Cell 6,6] in Square 4 containing values [1 2 3 5 6 ]
+Found a combi group [Cell 3,7, Cell 1,8, Cell 2,8, Cell 3,8, Cell 3,9] in Square 6 containing values [1 2 3 5 6 ]
+Cell 0,8 cannot have value 1
+Cell 0,8 cannot have value 3
+Cell 0,8 cannot have value 6
+Cell 1,8 cannot have value 1
+Cell 1,8 cannot have value 6
+Found a combi group [Cell 1,9, Cell 2,9] in Square 6 containing values [8 9 ]
+Found a combi group [Cell 1,9, Cell 2,9] in Row 8 containing values [8 9 ]
+Cell 4,8 cannot have value 8
+Cell 7,8 cannot have value 9
+Found a combi group [Cell 3,9, Cell 5,9, Cell 8,9] in Row 8 containing values [1 3 6 ]
+Iteration 5 complete
+1  |  3|   #12 |12 |   #   |   | 2
+  6|   |   #  6|  6|   #4  | 5 |
+  9|   | 8 #  9|  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   | 23| 23
+  6|  6|4  # 5 |  6|   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+   | 2 |   # 23| 23|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #  9|  9|   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |1 3# 2 |   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #  9|   |
+-----------------------------------
+   |   |   #123|123|1 3# 23|   |
+   |4  |   #  6|  6|  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#   |   |  3#  3|   |1
+   | 56| 56#   |4  | 56#   |   |
+   | 8 |   # 8 |   |   #  9|7  |
+###################################
+   |   |123#1 3|1 3|1 3#   |123| 23
+4  |   | 5 #   | 5 | 5 #  6|   |
+   |7  |   # 8 | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |1 3|   #   |123|
+ 56| 56| 56#   | 56|   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |1 3| 2 #   |1 3|
+   |   |  6#4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 6...
+Cell 6,3 is not 9 (because of cell 3,3 with value 9 in set Row 3)
+By process of elimination cell 6,3 has value 2
+Cell 3,0 is not 9 (because of cell 3,3 with value 9 in set Column 3)
+Cell 3,2 is not 9 (because of cell 3,3 with value 9 in set Column 3)
+Cell 3,6 is not 8 (because of cell 3,5 with value 8 in set Column 3)
+Cell 4,6 has value 8 because no other item in set Column 4 can possibly have this value
+Cell 1,5 is not 8 (because of cell 3,5 with value 8 in set Row 5)
+Cell 6,4 is not 2 (because of cell 6,3 with value 2 in set Square 5)
+By process of elimination cell 6,4 has value 3
+Cell 6,5 is not 3 (because of cell 6,4 with value 3 in set Square 5)
+By process of elimination cell 6,5 has value 9
+Iteration 6 complete
+1  |  3|   #12 |12 |   #   |   | 2
+  6|   |   #  6|  6|   #4  | 5 |
+  9|   | 8 #   |  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   | 23| 23
+  6|  6|4  # 5 |  6|   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+   | 2 |   # 23| 23|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #   |  9|   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |1 3# 2 |   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #123|123|1 3#  3|   |
+   |4  |   #  6|  6|  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#   |   |  3#   |   |1
+   | 56| 56#   |4  | 56#   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |123#1 3|   |1 3#   |123| 23
+4  |   | 5 #   |   | 5 #  6|   |
+   |7  |   #   | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |1 3|   #   |123|
+ 56| 56| 56#   | 56|   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |1 3| 2 #   |1 3|
+   |   |  6#4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 7...
+Cell 3,4 is not 3 (because of cell 6,4 with value 3 in set Row 4)
+Cell 4,4 is not 3 (because of cell 6,4 with value 3 in set Row 4)
+Cell 5,4 is not 3 (because of cell 6,4 with value 3 in set Row 4)
+Cell 4,7 has value 5 because no other item in set Column 4 can possibly have this value
+Cell 0,7 is not 5 (because of cell 4,7 with value 5 in set Row 7)
+Cell 1,7 is not 5 (because of cell 4,7 with value 5 in set Row 7)
+Cell 2,7 is not 5 (because of cell 4,7 with value 5 in set Row 7)
+Cell 5,6 is not 5 (because of cell 4,7 with value 5 in set Square 7)
+Cell 4,8 has value 6 because no other item in set Square 7 can possibly have this value
+Cell 2,8 is not 6 (because of cell 4,8 with value 6 in set Row 8)
+Iteration 7 complete
+1  |  3|   #12 |12 |   #   |   | 2
+  6|   |   #  6|  6|   #4  | 5 |
+  9|   | 8 #   |  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   | 23| 23
+  6|  6|4  # 5 |  6|   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+   | 2 |   # 23| 23|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #   |  9|   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |1 3# 2 |   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #12 |12 |1  #  3|   |
+   |4  |   #  6|  6|  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#   |   |  3#   |   |1
+   | 56| 56#   |4  | 56#   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |123#1 3|   |1 3#   |123| 23
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |   |   #   |123|
+  6|  6|  6#   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |   | 2 #   |1 3|
+   |   |   #4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 8...
+Cell 4,0 is not 6 (because of cell 4,8 with value 6 in set Column 4)
+Cell 4,1 is not 6 (because of cell 4,8 with value 6 in set Column 4)
+Cell 4,4 is not 6 (because of cell 4,8 with value 6 in set Column 4)
+Cell 2,6 has value 5 because no other item in set Row 6 can possibly have this value
+Iteration 8 complete
+1  |  3|   #12 |12 |   #   |   | 2
+  6|   |   #  6|   |   #4  | 5 |
+  9|   | 8 #   |  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   | 23| 23
+  6|  6|4  # 5 |   |   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+   | 2 |   # 23| 23|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #   |  9|   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |1 3# 2 |   |
+ 5 | 5 | 5 #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #12 |12 |1  #  3|   |
+   |4  |   #  6|   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |  3#   |   |  3#   |   |1
+   | 56| 56#   |4  | 56#   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #1 3|   |1 3#   |123| 23
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |  9|  9
+-----------------------------------
+1 3|12 |123#   |   |   #   |123|
+  6|  6|  6#   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |   | 2 #   |1 3|
+   |   |   #4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 9...
+Cell 3,0 has value 6 because no other item in set Square 1 can possibly have this value
+Cell 2,3 is not 5 (because of cell 2,6 with value 5 in set Column 2)
+Cell 2,5 is not 5 (because of cell 2,6 with value 5 in set Column 2)
+Cell 2,7 has value 2 because no other item in set Column 2 can possibly have this value
+Cell 2,5 has value 6 because no other item in set Column 2 can possibly have this value
+Cell 3,4 is not 6 (because of cell 3,0 with value 6 in set Column 3)
+Cell 1,5 is not 6 (because of cell 2,5 with value 6 in set Square 3)
+By process of elimination cell 1,5 has value 5
+Cell 5,4 has value 6 because no other item in set Row 4 can possibly have this value
+Cell 5,5 is not 5 (because of cell 1,5 with value 5 in set Row 5)
+Cell 5,5 is not 6 (because of cell 2,5 with value 6 in set Row 5)
+By process of elimination cell 5,5 has value 3
+Cell 5,3 is not 3 (because of cell 5,5 with value 3 in set Column 5)
+Cell 5,6 is not 3 (because of cell 5,5 with value 3 in set Column 5)
+By process of elimination cell 5,6 has value 1
+Cell 5,3 is not 1 (because of cell 5,6 with value 1 in set Column 5)
+By process of elimination cell 5,3 has value 5
+Cell 3,6 is not 1 (because of cell 5,6 with value 1 in set Row 6)
+By process of elimination cell 3,6 has value 3
+Cell 7,6 is not 1 (because of cell 5,6 with value 1 in set Row 6)
+Cell 1,7 is not 2 (because of cell 2,7 with value 2 in set Square 6)
+Cell 7,7 is not 2 (because of cell 2,7 with value 2 in set Row 7)
+Iteration 9 complete
+1  |  3|   #   |12 |   #   |   | 2
+  6|   |   #  6|   |   #4  | 5 |
+  9|   | 8 #   |  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |123|   #   | 23| 23
+  6|  6|4  # 5 |   |   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|  9
+-----------------------------------
+   | 2 |   # 23| 23|   #1  |   |
+ 5 | 5 |   #   |   |4  #   |  6|
+  9|  9|7  #   |  9|   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |   # 2 |   |
+ 5 | 5 |   #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #12 |12 |   #  3|   |
+   |4  |   #   |   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |   #   |   |  3#   |   |1
+   | 5 |  6#   |4  |   #   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #  3|   |1  #   | 23| 23
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |  9|  9
+-----------------------------------
+1 3|1  | 2 #   |   |   #   |1 3|
+  6|  6|   #   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |   | 2 #   |1 3|
+   |   |   #4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 10...
+Cell 0,0 is not 6 (because of cell 3,0 with value 6 in set Row 0)
+Cell 1,2 is not 5 (because of cell 1,5 with value 5 in set Column 1)
+Cell 1,3 is not 5 (because of cell 1,5 with value 5 in set Column 1)
+Cell 0,2 has value 5 because no other item in set Row 2 can possibly have this value
+Cell 0,3 is not 5 (because of cell 5,3 with value 5 in set Row 3)
+Cell 3,2 is not 3 (because of cell 3,6 with value 3 in set Column 3)
+By process of elimination cell 3,2 has value 2
+Cell 3,4 has value 1 because no other item in set Column 3 can possibly have this value
+Cell 4,4 is not 1 (because of cell 3,4 with value 1 in set Row 4)
+By process of elimination cell 4,4 has value 2
+Cell 4,0 is not 2 (because of cell 4,4 with value 2 in set Column 4)
+Cell 4,1 is not 2 (because of cell 4,4 with value 2 in set Column 4)
+Cell 4,2 is not 2 (because of cell 4,4 with value 2 in set Column 4)
+Cell 7,6 is not 3 (because of cell 3,6 with value 3 in set Row 6)
+Cell 8,6 is not 3 (because of cell 3,6 with value 3 in set Row 6)
+Cell 8,1 has value 3 because no other item in set Column 8 can possibly have this value
+Iteration 10 complete
+1  |  3|   #   |1  |   #   |   | 2
+   |   |   #  6|   |   #4  | 5 |
+  9|   | 8 #   |  9|7  #   |   |  9
+-----------------------------------
+1  |12 |   #   |1 3|   #   | 23|  3
+  6|  6|4  # 5 |   |   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|
+-----------------------------------
+   | 2 |   # 2 |  3|   #1  |   |
+ 5 |   |   #   |   |4  #   |  6|
+   |  9|7  #   |  9|   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |   # 2 |   |
+   |   |   #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #1  | 2 |   #  3|   |
+   |4  |   #   |   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |   #   |   |  3#   |   |1
+   | 5 |  6#   |4  |   #   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #  3|   |1  #   | 2 | 2
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |  9|  9
+-----------------------------------
+1 3|1  | 2 #   |   |   #   |1 3|
+  6|  6|   #   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |   | 2 #   |1 3|
+   |   |   #4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 11...
+Cell 8,0 has value 2 because no other item in set Row 0 can possibly have this value
+Cell 4,1 is not 3 (because of cell 8,1 with value 3 in set Row 1)
+Cell 7,1 is not 3 (because of cell 8,1 with value 3 in set Row 1)
+Cell 4,2 has value 3 because no other item in set Square 1 can possibly have this value
+Cell 1,2 is not 2 (because of cell 3,2 with value 2 in set Row 2)
+By process of elimination cell 1,2 has value 9
+Cell 7,1 is not 2 (because of cell 8,0 with value 2 in set Square 2)
+By process of elimination cell 7,1 has value 9
+Cell 7,6 is not 9 (because of cell 7,1 with value 9 in set Column 7)
+By process of elimination cell 7,6 has value 2
+Cell 8,6 is not 2 (because of cell 8,0 with value 2 in set Column 8)
+By process of elimination cell 8,6 has value 9
+Iteration 11 complete
+1  |  3|   #   |1  |   #   |   | 2
+   |   |   #  6|   |   #4  | 5 |
+  9|   | 8 #   |  9|7  #   |   |
+-----------------------------------
+1  |12 |   #   |1  |   #   |   |  3
+  6|  6|4  # 5 |   |   #   |   |
+  9|  9|   #   |  9| 8 #7  |  9|
+-----------------------------------
+   |   |   # 2 |  3|   #1  |   |
+ 5 |   |   #   |   |4  #   |  6|
+   |  9|7  #   |   |   #   |   | 8
+###################################
+1 3|1  |1 3#   |   |   # 2 |   |
+   |   |   #   |   | 5 #   |4  |  6
+ 8 | 8 |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #1  | 2 |   #  3|   |
+   |4  |   #   |   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |   #   |   |  3#   |   |1
+   | 5 |  6#   |4  |   #   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #  3|   |1  #   | 2 |
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |   |  9
+-----------------------------------
+1 3|1  | 2 #   |   |   #   |1 3|
+  6|  6|   #   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |   | 2 #   |1 3|
+   |   |   #4  |  6|   # 5 |   |
+ 89| 89|   #   |   |   #   |   |7
+###################################
+Iteration 12...
+Cell 0,0 is not 9 (because of cell 1,2 with value 9 in set Square 0)
+By process of elimination cell 0,0 has value 1
+Cell 0,1 is not 9 (because of cell 1,2 with value 9 in set Square 0)
+Cell 1,1 is not 9 (because of cell 1,2 with value 9 in set Square 0)
+Cell 4,0 has value 9 because no other item in set Row 0 can possibly have this value
+Cell 0,8 has value 9 because no other item in set Column 0 can possibly have this value
+Cell 1,1 has value 2 because no other item in set Square 0 can possibly have this value
+Cell 0,1 has value 6 because no other item in set Square 0 can possibly have this value
+Cell 4,1 is not 9 (because of cell 7,1 with value 9 in set Row 1)
+By process of elimination cell 4,1 has value 1
+Cell 1,8 is not 9 (because of cell 1,2 with value 9 in set Column 1)
+By process of elimination cell 1,8 has value 8
+Cell 1,3 is not 8 (because of cell 1,8 with value 8 in set Column 1)
+By process of elimination cell 1,3 has value 1
+Cell 1,7 has value 6 because no other item in set Column 1 can possibly have this value
+Cell 0,3 is not 1 (because of cell 1,3 with value 1 in set Row 3)
+Cell 2,3 is not 1 (because of cell 1,3 with value 1 in set Row 3)
+By process of elimination cell 2,3 has value 3
+Cell 0,3 is not 3 (because of cell 2,3 with value 3 in set Row 3)
+By process of elimination cell 0,3 has value 8
+Cell 0,7 is not 6 (because of cell 1,7 with value 6 in set Square 6)
+Iteration 12 complete
+1  |  3|   #   |   |   #   |   | 2
+   |   |   #  6|   |   #4  | 5 |
+   |   | 8 #   |  9|7  #   |   |
+-----------------------------------
+   | 2 |   #   |1  |   #   |   |  3
+  6|   |4  # 5 |   |   #   |   |
+   |   |   #   |   | 8 #7  |  9|
+-----------------------------------
+   |   |   # 2 |  3|   #1  |   |
+ 5 |   |   #   |   |4  #   |  6|
+   |  9|7  #   |   |   #   |   | 8
+###################################
+   |1  |  3#   |   |   # 2 |   |
+   |   |   #   |   | 5 #   |4  |  6
+ 8 |   |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #1  | 2 |   #  3|   |
+   |4  |   #   |   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |   #   |   |  3#   |   |1
+   | 5 |  6#   |4  |   #   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #  3|   |1  #   | 2 |
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |   |  9
+-----------------------------------
+1 3|   | 2 #   |   |   #   |1 3|
+   |  6|   #   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1 3#   |   | 2 #   |1 3|
+   |   |   #4  |  6|   # 5 |   |
+  9| 8 |   #   |   |   #   |   |7
+###################################
+Iteration 13...
+Cell 0,7 is not 1 (because of cell 0,0 with value 1 in set Column 0)
+By process of elimination cell 0,7 has value 3
+Cell 2,8 is not 3 (because of cell 2,3 with value 3 in set Column 2)
+By process of elimination cell 2,8 has value 1
+Cell 7,7 is not 3 (because of cell 0,7 with value 3 in set Row 7)
+By process of elimination cell 7,7 has value 1
+Cell 7,8 is not 1 (because of cell 7,7 with value 1 in set Column 7)
+By process of elimination cell 7,8 has value 3
+Iteration 13 complete
+1  |  3|   #   |   |   #   |   | 2
+   |   |   #  6|   |   #4  | 5 |
+   |   | 8 #   |  9|7  #   |   |
+-----------------------------------
+   | 2 |   #   |1  |   #   |   |  3
+  6|   |4  # 5 |   |   #   |   |
+   |   |   #   |   | 8 #7  |  9|
+-----------------------------------
+   |   |   # 2 |  3|   #1  |   |
+ 5 |   |   #   |   |4  #   |  6|
+   |  9|7  #   |   |   #   |   | 8
+###################################
+   |1  |  3#   |   |   # 2 |   |
+   |   |   #   |   | 5 #   |4  |  6
+ 8 |   |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #1  | 2 |   #  3|   |
+   |4  |   #   |   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |   #   |   |  3#   |   |1
+   | 5 |  6#   |4  |   #   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #  3|   |1  #   | 2 |
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |   |  9
+-----------------------------------
+  3|   | 2 #   |   |   #   |1  |
+   |  6|   #   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1  #   |   | 2 #   |  3|
+   |   |   #4  |  6|   # 5 |   |
+  9| 8 |   #   |   |   #   |   |7
+###################################
+Iteration 14...
+CHECKING FOR COMBI GROUPS
+Iteration 14 complete
+SOLUTION:
+1  |  3|   #   |   |   #   |   | 2
+   |   |   #  6|   |   #4  | 5 |
+   |   | 8 #   |  9|7  #   |   |
+-----------------------------------
+   | 2 |   #   |1  |   #   |   |  3
+  6|   |4  # 5 |   |   #   |   |
+   |   |   #   |   | 8 #7  |  9|
+-----------------------------------
+   |   |   # 2 |  3|   #1  |   |
+ 5 |   |   #   |   |4  #   |  6|
+   |  9|7  #   |   |   #   |   | 8
+###################################
+   |1  |  3#   |   |   # 2 |   |
+   |   |   #   |   | 5 #   |4  |  6
+ 8 |   |   #  9|7  |   #   |   |
+-----------------------------------
+   |   |   #1  | 2 |   #  3|   |
+   |4  |   #   |   |  6#   |   | 5
+7  |   |  9#   |   |   #   | 8 |
+-----------------------------------
+ 2 |   |   #   |   |  3#   |   |1
+   | 5 |  6#   |4  |   #   |   |
+   |   |   # 8 |   |   #  9|7  |
+###################################
+   |   |   #  3|   |1  #   | 2 |
+4  |   | 5 #   |   |   #  6|   |
+   |7  |   #   | 8 |   #   |   |  9
+-----------------------------------
+  3|   | 2 #   |   |   #   |1  |
+   |  6|   #   | 5 |   #   |   |4
+   |   |   #7  |   |  9# 8 |   |
+-----------------------------------
+   |   |1  #   |   | 2 #   |  3|
+   |   |   #4  |  6|   # 5 |   |
+  9| 8 |   #   |   |   #   |   |7
+###################################
