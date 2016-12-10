@@ -31,9 +31,8 @@ board.txt:
 The program prints the solution, logging the intermediate steps to get there. Following the log file from the top
 can provide useful hints when you are stuck trying to solve a puzzle by hand!
 
-An example output:
+Example output:
 <pre>
-
 ... lots of detail excluded ...
 
 Iteration 14...
@@ -77,3 +76,5 @@ SOLUTION:
   9| 8 |   #   |   |   #   |   |7  
 ###################################
 </pre>
+
+For a more complete sample output, see [sample.log](sample.log).
